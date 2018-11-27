@@ -1,0 +1,37 @@
+/* pages/movie/movie.wxss */
+.movieContatainer{
+  display: flex;
+  padding: 10rpx
+}
+.movieImg{
+  width: 128rpx;
+  height: 128rpx;
+}
+.mocvieInfo{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left:20rpx 
+}
+.mociveName{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 32rpx;
+  color: #333;
+  font-weight: bold;
+  
+}
+.mociveYear{
+  font-size:28rpx;
+  color: #666;
+  margin: 10rpx 0
+}
+.mociveDir{
+  font-size: 30rpx;
+  color: #999
+}
+.rating{
+  font-size: 36rpx;
+  font-weight: bold;
+  color: red
+}

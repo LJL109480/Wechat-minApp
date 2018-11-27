@@ -1,0 +1,39 @@
+/* pages/detail/detail.wxss */
+.detailContatainer{
+  display: flex;
+  flex-direction: column;
+}
+.collect_share{
+  position: relative
+}
+.share{
+  float: right;
+  margin-right:30rpx 
+}
+.share image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 10rpx
+}
+.line{
+  width: 90%;
+  height: 1rpx;
+  background: #eee;
+  position: absolute;
+  top: 45rpx;
+  left: 5%;
+  z-index: -1
+}
+.btn{
+  margin-top: 20rpx;
+  width: 300rpx;
+  height: 80rpx;
+  background: wheat;
+}
+.detailImg{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:14%;
+  left: 50%;
+}

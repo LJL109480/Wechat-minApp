@@ -1,0 +1,24 @@
+<!--pages/list/list.wxml-->
+<import src='/pages/listTmp/listTmp' />
+
+<view>
+<swiper indicator-dots indicator-color='#fff' indicator-active-color='blue'>
+  <swiper-item>
+    <image src='/images/detail/carousel/01.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/detail/carousel/02.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/detail/carousel/03.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='/images/detail/carousel/04.jpg'></image>
+  </swiper-item>
+</swiper>
+  <view wx:for='{{listArry}}' wx:key='{{index}}'>
+    <view catchtap='skipDetails' data-index='{{index}}'>
+      <template is='listTmp' data='{{...item}}'/>
+    </view>
+  </view>
+</view>

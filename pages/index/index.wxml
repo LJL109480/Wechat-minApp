@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="contatainer">
+  <image wx:if='{{userInfo.avatarUrl}}' class="userHeader" src='{{userInfo.avatarUrl}}'></image>
+  <button  class='btn' wx:else open-type='getUserInfo' bindgetuserinfo='getUserInfo'>获取头像</button>
+  <text class='userName'>{{userInfo.nickName}}</text>
+  <view class='goStudy' catchtap='handleParent'>
+    <text>开启小程序之旅</text>
+  </view>
+</view>

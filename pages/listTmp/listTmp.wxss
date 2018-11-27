@@ -1,0 +1,22 @@
+/* pages/listTmp/listTmp.wxss */
+.tmpContatainer{
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666
+}
+
+.bottomImg{
+  margin-top:10rpx 
+}
+.bottomImg image{
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 10rpx
+} 
+.bottomImg text{
+  font-size: 28rpx;
+  color: #666;
+  vertical-align: middle;
+  margin-left: 10rpx
+}

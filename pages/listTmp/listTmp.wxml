@@ -1,0 +1,18 @@
+<!--pages/listTmp/listTmp.wxml-->
+<template name='listTmp'>
+<view class='tmpContatainer'>
+ <view class='HeaderImg'>
+   <image src='{{avatar}}'></image>
+   <text class='tmpText'>{{date}}</text>
+ </view>
+  <text class='company'>{{title}}</text>
+  <image class='Img' src='{{detail_img}}'></image>
+  <text class='content'>{{detail_content}}</text>
+  <view class='bottomImg'>
+  <image src='{{detail_love_image1}}'></image>
+  <text>88</text>
+  <image src='{{detail_love_image2}}'></image>
+  <text>66</text>
+  </view>
+</view>
+</template>
